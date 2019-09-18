@@ -1,13 +1,19 @@
-main {
+body {
    margin: 0;
-   padding: 0;
-   height: 80vh;
-   background:#11171F ;
-   border: 1px solide red;
+}
+
+main {
+   /* height: 80vh; */
+   background: #11171f;
+   /* border: 1px solide red; */
    display: flex;
    justify-content: center;
    align-items: center;
    font-family: "Roboto", "Open-sans", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+   font-family: "Open-sans";
 }
 
 .container {
@@ -23,6 +29,8 @@ main {
 .container .card {
    position: relative;
    margin: 10px;
+   margin-top: 70px;
+   height: 500px;
 }
 
 .container .card .face {
@@ -31,7 +39,7 @@ main {
    transition: 0.5s;
 }
 
-         /* CONTENUE SUPERIEUR */
+/* CONTENUE SUPERIEUR */
 
 .container .card .face.face1 {
    position: relative;
@@ -48,7 +56,7 @@ main {
    transform: translateY(0px);
 }
 
-         /* IMAGE */
+/* IMAGE */
 
 img {
    max-width: 400px;
@@ -67,11 +75,11 @@ img {
    transform: translateY(-40px);
 }
 
-         /* TITRE */
+/* TITRE */
 .container .card .face.face1 .content h3 {
    margin: 30px 0 0;
    padding: 5px 0 0 0;
-   color: #E8EEF6;
+   color: #e8eef6;
    text-align: center;
    font-size: 1.2em;
    transition: 0.5s;
@@ -118,22 +126,21 @@ img {
    color: #fff;
 }
 
-         /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 800px) {
    .container {
-      height: border-box;
-      /* margin-top: -400px; */
+      height: auto;
+      margin-top: 50px;
       padding: 50px;
       display: flex;
       align-items: center;
       flex-direction: column;
       /* TODO: */
-      border: 1px solid red;
+      /* border: 1px solid red; */
    }
 
-   .container .card 
-   {
+   .container .card {
       margin: 10px;
    }
 }
