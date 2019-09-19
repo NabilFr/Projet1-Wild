@@ -35,8 +35,9 @@ font-size : 20px;
 background-color: #10171fed; 
 display:block; 
 margin : 0 10px; 
-padding : 5px;} 
+padding : 5px;
 border-radius : 25px;
+}
    
 #menu-demo2 li:hover ul{ 
    max-height:60em; 
