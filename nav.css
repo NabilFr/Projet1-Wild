@@ -233,7 +233,7 @@ border-radius : 15px;
       margin : 50px 150px 0px -70px; 
    } 
 } 
-@media screen and (max-width : 999px){ 
+@media screen and (max-width : 999px) and (min-width:0px){ 
    .search-box{ 
       margin : 10px auto; 
       width: 200px; 
