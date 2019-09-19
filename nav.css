@@ -183,13 +183,13 @@ border-radius : 2px;
       margin: 5px 60px; 
    } 
    .Articles{ 
-      margin : 0 130px 5px; 
+      margin : 11px 150px 10px; 
    } 
    .Apropos{ 
       margin: 0 130px 5px; 
    } 
    .search-box{ 
-      margin : 50px 150px 0px 170px; 
+      margin : 0px 150px 45px 170px; 
    } 
    .search-txt{ 
       width : 200px;      
@@ -197,67 +197,71 @@ border-radius : 2px;
 } 
 @media screen and (max-width : 1237px){ 
    .search-box{ 
-      margin : 50px 150px 0px 132px; 
+      margin : 0px 150px 45px 132px; 
    } 
 } 
 @media screen and (max-width : 1199px){ 
    .search-box{ 
-      margin : 50px 150px 0px 100px; 
+      margin : 50px 150px 45px 100px; 
    } 
 } 
 @media screen and (max-width : 1167px){ 
    .search-box{ 
-      margin : 50px 150px 0px 80px; 
+      margin : 50px 150px 45px 80px; 
    } 
 } 
 @media screen and (max-width : 1147px){ 
    .search-box{ 
-      margin : 50px 150px 0px 35px; 
+      margin : 50px 150px 45px 35px; 
    } 
 } 
 @media screen and (max-width : 1114px){ 
    .search-box{ 
-      margin : 50px 150px 0px 2px; 
+      margin : 50px 150px 45px 2px; 
    } 
 } 
 @media screen and (max-width : 1069px){ 
    .search-box{ 
-      margin : 50px 150px 0px -20px; 
+      margin : 50px 150px 45px -20px; 
    } 
 } 
 @media screen and (max-width : 1047px){ 
    .search-box{ 
-      margin : 50px 150px 0px -40px; 
+      margin : 50px 150px 45px -40px; 
    } 
 } 
 @media screen and (max-width : 1027px){ 
    .search-box{ 
-      margin : 50px 150px 0px -50px; 
+      margin : 50px 150px 45px -50px; 
    } 
 } 
 @media screen and (max-width : 1017px){ 
    .search-box{ 
-      margin : 50px 150px 0px -70px; 
+      margin : 50px 150px 45px -70px; 
    } 
 } 
-@media screen and (max-width : 999px) and (min-width:0px){ 
+@media screen and (min-width:0px) and (max-width : 999px){ 
    .search-box{ 
-      margin : 10px auto; 
+      margin : 13px auto; 
       width: 200px; 
    } 
    .nav{ 
       display:flex; 
       flex-direction : column; 
       justify-content: center; 
+      align-items: center;
       margin:auto; 
    } 
    .Anime{      
       font-size: 2em; 
-      margin: 5px 0px; 
+      margin: 11px 250px; 
    } 
-   #menu-demo2 li{ 
-      display:block; 
-      } 
+   .Articles{ 
+      margin : 11px 250px; 
+   } 
+   .Apropos{ 
+      margin: 0px 250px; 
+   } 
    .search-txt{ 
       width : 140px;      
    } 
