@@ -1,6 +1,6 @@
 
-.navbar{ 
-   font-family: 'Open Sans', sans-serif; 
+.nav{ 
+   font-family: 'Roboto'; 
    background-color : #11171F; 
    padding : 10px 7px 15px 5px; 
    display : flex ; 
