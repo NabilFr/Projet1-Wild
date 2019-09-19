@@ -133,10 +133,6 @@ textarea {
     border-radius:23px;
 }
 
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-    background-color:white;
-}
 #button-blue{
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
