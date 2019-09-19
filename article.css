@@ -6,35 +6,28 @@ body{
     background-color: #E8EEF6;
 }
 
-main{
-    margin:-0.5em;
-}
-.article1-DBZ{
-    background-color: #E8EEF6;
-    padding: 0 5% 5% 5%;
+.article1-DBZ {
+    background-color: #1a1f25;
+    padding: 5%;
+    text-align: center;
     
 }
 .typographie{
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: #E8EEF6;
     font-size: large;
 }
 .typographie-titre{
-    font-family: "Roboto", sans-serif;
-    color:black;
+    font-family: "Patua one",cursive;
+    color: #E8EEF6;
     font-size: 2em;
     text-align: center;
     margin-bottom: 3em;
 
 }
-.gif-DBZ1{
-    width: 130px;
-    float: left;
-    padding:0px 14px 11px 0px;
-}
 .p-float{
     margin-top:30px;
-    line-height: 23px;
+    line-height: 32px;
 }
 .gif-DBZ2{
     width: 100%;
@@ -47,7 +40,7 @@ main{
 #banner2 {
     height: 30em;
     width: 100%;
-    background-image: url(images/banner_article.png);
+    background-image: url(images/banner_article_final.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -58,22 +51,17 @@ main{
 }
 
 .text_banner2 {
-    font-family: 'roboto', sans-serif;
-    font-size: 40px;
+    font-family: "Patua one",cursive;
+    font-size: 60px;
     color: #E8EEF6;
     text-shadow: 2px 2px 2px #11171F;
     display: flex;
     align-items: center;
-    font-weight: bold;
     padding: 0px;
     margin:0;
 
 }
 @media screen and (min-width: 430px) {
-    .gif-DBZ1{
-        width: 180px;
-        padding: 0px 20px 20px 0px;
-    }
     .position-gif-DBZ2{
         display: flex;
         justify-content: center;
@@ -84,5 +72,13 @@ main{
     }
     .article1-DBZ{
         padding: 10%;
+    }
+}
+
+
+@media screen and (min-width: 1350px) {
+    #banner2 {
+        background-image: url(images/banner_article_final_desktop.png);
+
     }
 }
