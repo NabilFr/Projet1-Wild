@@ -1,13 +1,17 @@
+html {
+    background-color: #E8EEF6;
+}
+
 body{
-    background-color: #11171F;
+    background-color: #E8EEF6;
 }
 
 main{
     margin:-0.5em;
 }
 .article1-DBZ{
-    background-color: white;
-    padding: 5%;
+    background-color: #E8EEF6;
+    padding: 0 5% 5% 5%;
     
 }
 .typographie{
@@ -40,6 +44,31 @@ main{
     font-size: xx-large;
 }
 
+#banner2 {
+    height: 30em;
+    width: 100%;
+    background-image: url(images/banner_article.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position-y: 20%;
+    align-content: center;
+    line-height:50px;
+}
+
+.text_banner2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    color: #E8EEF6;
+    text-shadow: 2px 2px 2px #11171F;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 0px;
+    margin:0;
+
+}
 @media screen and (min-width: 430px) {
     .gif-DBZ1{
         width: 180px;
