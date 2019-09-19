@@ -1,5 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
+#banner_apropos {
+	background-image: url(images/banner_apropos3.jpg);
+	height: 50em;
+	width: 100%;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    line-height:50px;
+}
+
+.text_banner_apropos {
+	font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3c3c3c;
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+    margin:0;
+}
 .formulaire{
   background:url(images/imageapropro.jpg) no-repeat;
   background-size: cover;
@@ -166,5 +189,13 @@ input:focus, textarea:focus {
     }
     form{
         width: auto;
-    }
+	}
+	
+	.text_banner_apropos {
+		text-align: center;
+	}
+
+	#banner_apropos {
+		height: 30em;
+	}
 }
