@@ -1,0 +1,258 @@
+
+.navbar{ 
+   font-family: 'Open Sans', sans-serif; 
+   background-color : #11171F; 
+   padding : 10px 7px 15px 5px; 
+   display : flex ; 
+   justify-content: space-between; 
+   align-items : flex-end; 
+   text-decoration: none; 
+} 
+
+#menu-demo2, #menu-demo2 ul{ 
+   padding:0; 
+   margin:0; 
+   list-style:none; 
+   text-align:center; 
+   } 
+   
+#menu-demo2 li{ 
+   display:inline-block; 
+   position:relative; 
+   } 
+   
+#menu-demo2 ul{ 
+   position:absolute; 
+   z-index: 1000; 
+   max-height:0; 
+   overflow:hidden; 
+   -moz-transition: .8s all .3s; 
+} 
+   
+#menu-demo2 ul li a{ 
+color : #E8EEF6; 
+font-size : 20px; 
+background-color: #10171fed; 
+display:block; 
+margin : 0 10px; 
+padding : 5px;} 
+border-radius : 25px;
+   
+#menu-demo2 li:hover ul{ 
+   max-height:60em; 
+   padding : 0px 0px 40px 80px; 
+   } 
+   
+.nav{ 
+   display : flex; 
+   flex-direction : row 
+} 
+
+.nav a{ 
+ color : #E8EEF6; 
+ text-decoration: none; 
+} 
+
+.Anime{      
+   font-size: 1.5em; 
+   font-family: 'Permanent Marker', cursive; 
+   text-transform: uppercase; 
+   margin: 0 45px; 
+} 
+
+.Articles{ 
+   font-size: 19px; 
+   margin : 0 60px; 
+} 
+
+/** 
+.Article:hover{ 
+   .Apropos{ 
+      visibility:hidden; 
+   } 
+} 
+**/ 
+
+.Articles ul li{ 
+   margin-top: 10px; 
+} 
+
+.Apropos{ 
+   font-size: 19px; 
+   margin: 0 60px; 
+} 
+
+.search-box{ 
+   top:50%; 
+   left:50%; 
+   transform : translate (-50%, -50%); 
+   background : #2f3640; 
+   height : 30px; 
+   width:420px; 
+   margin : 5px 10px 0px 340px; 
+   border-radius : 40px; 
+} 
+
+.search-btn{ 
+   color:#E8EEF6;   
+   float:right; 
+   width:30px; 
+   height:30px; 
+   border-radius:50%; 
+   background : #2f3640; 
+   display:flex; 
+   justify-content:center; 
+   align-items:center; 
+} 
+
+.search-txt{ 
+   float : left;     
+   color:#E8EEF6; 
+   font-size: 14px; 
+   transition : 0.4s; 
+   line-height : 1px; 
+   width : 350px; 
+   height: 19px; 
+   margin-top: 4px; 
+   margin-left : 20px; 
+   opacity : 1.5; 
+   background-color: #2f3640; 
+   border:none; 
+} 
+
+@media screen and (max-width : 1484px){ 
+   .Anime{      
+      font-size: 1.5em; 
+      font-family: 'Permanent Marker', cursive; 
+      text-transform: uppercase; 
+      margin: 0 45px; 
+   } 
+   .Articles{ 
+      margin : 0 40px; 
+   } 
+   .Apropos{ 
+      margin: 0 40px; 
+   } 
+} 
+@media screen and (max-width : 1444px){ 
+   .Articles{ 
+      margin : 0 40px; 
+   } 
+   .Apropos{ 
+      margin: 0 40px; 
+   } 
+} 
+@media screen and (max-width : 1404px){ 
+   .Articles{ 
+      margin : 0 30px; 
+   } 
+   .Apropos{ 
+      margin: 0 30px; 
+   } 
+} 
+@media screen and (max-width : 1364px){ 
+   .Articles{ 
+      margin : 0 25px; 
+   } 
+   .Apropos{ 
+      margin: 0 25px; 
+   } 
+} 
+@media screen and (max-width : 1344px){ 
+   .Articles{ 
+      margin : 0 20px; 
+   } 
+   .Apropos{ 
+      margin: 0 20px; 
+   } 
+   .search-box{ 
+      margin : 5px 10px 0px 300px; 
+   } 
+} 
+@media screen and (max-width : 1280px){ 
+   .Anime{      
+      font-size: 1.9em; 
+      margin: 5px 60px; 
+   } 
+   .Articles{ 
+      margin : 0 130px 5px; 
+   } 
+   .Apropos{ 
+      margin: 0 130px 5px; 
+   } 
+   .search-box{ 
+      margin : 50px 150px 0px 170px; 
+   } 
+   .search-txt{ 
+      width : 200px;      
+   } 
+} 
+@media screen and (max-width : 1237px){ 
+   .search-box{ 
+      margin : 50px 150px 0px 132px; 
+   } 
+} 
+@media screen and (max-width : 1199px){ 
+   .search-box{ 
+      margin : 50px 150px 0px 100px; 
+   } 
+} 
+@media screen and (max-width : 1167px){ 
+   .search-box{ 
+      margin : 50px 150px 0px 80px; 
+   } 
+} 
+@media screen and (max-width : 1147px){ 
+   .search-box{ 
+      margin : 50px 150px 0px 35px; 
+   } 
+} 
+@media screen and (max-width : 1114px){ 
+   .search-box{ 
+      margin : 50px 150px 0px 2px; 
+   } 
+} 
+@media screen and (max-width : 1069px){ 
+   .search-box{ 
+      margin : 50px 150px 0px -20px; 
+   } 
+} 
+@media screen and (max-width : 1047px){ 
+   .search-box{ 
+      margin : 50px 150px 0px -40px; 
+   } 
+} 
+@media screen and (max-width : 1027px){ 
+   .search-box{ 
+      margin : 50px 150px 0px -50px; 
+   } 
+} 
+@media screen and (max-width : 1017px){ 
+   .search-box{ 
+      margin : 50px 150px 0px -70px; 
+   } 
+} 
+@media screen and (max-width : 999px){ 
+   .search-box{ 
+      margin : 10px auto; 
+      width: 200px; 
+   } 
+   .nav{ 
+      display:flex; 
+      flex-direction : column; 
+      justify-content: center; 
+      margin:auto; 
+   } 
+   .Anime{      
+      font-size: 2em; 
+      margin: 5px 0px; 
+   } 
+   #menu-demo2 li{ 
+      display:block; 
+      } 
+   .search-txt{ 
+      width : 140px;      
+   } 
+} 
+
+
