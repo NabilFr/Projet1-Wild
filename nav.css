@@ -26,18 +26,25 @@
    z-index: 1000; 
    max-height:0; 
    overflow:hidden; 
+
    -moz-transition: .8s all .3s; 
 } 
    
 #menu-demo2 ul li a{ 
 color : #E8EEF6; 
 font-size : 20px; 
-background-color: #10171fed; 
+background-color: #10171f; 
 display:block; 
-margin : 0 10px; 
-padding : 5px;
-border-radius : 25px;
+margin : 0 0 -10px -80px; 
+padding : 30px;
+box-sizing: border-box;
+border-radius : 2px;
 }
+
+#menu-demo2 ul li a:hover{
+   color: #E60023
+
+   }
    
 #menu-demo2 li:hover ul{ 
    max-height:60em; 
