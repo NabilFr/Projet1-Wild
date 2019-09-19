@@ -2,24 +2,27 @@
 
 
 #banner_apropos {
-	background-image: url(images/banner_apropos3.jpg);
-	height: 50em;
+	background-image: url(images/banner_sefie.jpg);
+	height: 40em;
 	width: 100%;
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-    line-height:50px;
+	line-height:50px;
+}
+
+#margin_banner {
+	margin: 0 30px 30px 30px;
 }
 
 .text_banner_apropos {
-	font-family:  'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: bold;
+	font-family:  'permanent marker', Arial, Helvetica, sans-serif;
     font-size: 40px;
-    color: #3c3c3c;
+	color: #3c3c3c;
+	border:2px #E60023;
     display: flex;
-    align-items: flex-start;
     padding: 40px;
     margin:0;
 }
