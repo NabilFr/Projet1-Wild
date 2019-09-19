@@ -1,6 +1,6 @@
 
-.navbar{ 
-   font-family: 'Open Sans', sans-serif; 
+.nav{ 
+   font-family: 'Roboto'; 
    background-color : #11171F; 
    padding : 10px 7px 15px 5px; 
    display : flex ; 
@@ -34,9 +34,9 @@ color : #E8EEF6;
 font-size : 20px; 
 background-color: #10171fed; 
 display:block; 
-margin : 0 10px; 
+margin : 4px 15px; 
 padding : 5px;
-border-radius : 25px;
+border-radius : 15px;
 }
    
 #menu-demo2 li:hover ul{ 
