@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+
+body {
+    background-color: #11171F;
+    font-family: 'Roboto', 'Open sans', sans-serif;
+}
+
 #banner1 {
     height: 30em;
     width: 100%;
@@ -11,22 +18,20 @@
     line-height:50px;
 }
 
-body {
-    background-color: #11171F;
-}
-
 .text_banner1  {
-    font-family: "roboto", sans-serif;
+    font-family: 'Roboto';
+    font-weight: 900;
     font-size: 40px;
     color: #E8EEF6;
     display: flex;
     align-items: center;
-    font-weight: bold;
     padding: 0px;
     margin:0;
 }
 
 .banner1_text_bouton {
+    font-family: 'Roboto';
+    font-weight: 900;
     display:flex;
     flex-direction: column;
     margin-left:100px;
@@ -66,7 +71,7 @@ body {
 }
 
 .contact_index {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto";
     color: #E8EEF6;
     font-weight: bold;
     font-size: 100px;
@@ -79,7 +84,7 @@ body {
 }
 
 .contact_index:hover {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto";
     color:#11171F;
     border-color: #11171F;
     cursor: pointer;  
@@ -140,7 +145,7 @@ body {
     }
     
     .contact_index {
-        font-family: "roboto", sans-serif;
+        font-family: "Roboto";
         color: #E8EEF6;
         font-weight: bold;
         font-size: 50px;
@@ -153,7 +158,7 @@ body {
     }
 
     .contact_index:hover {
-        font-family: "roboto", sans-serif;
+        font-family: "Roboto";
         color:#11171F;
         border-color: #11171F;  
     }
