@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="banner.css"/>
+        <link rel="page02.html"/>
+        <link rel="page03.html"/>
+        <title>Document</title>
+    </head>
+    <body>
+        <section>
+            <h1>Anime Jonetsu</h1>
+            <div id="banner1">
+                <div class="banner1_text_bouton">
+                    <p class="text_banner1">Bienvenue sur la référence Toulousaine<br/> number one du manga!</p>
+                    <input type="button" class="bouton1" value="Bande d'annonce">
+                </div>
+            </div>
+        </section>
+    </body>
+=======
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <link rel="stylesheet" href="Card.css" />
+   <!-- <link rel="stylesheet" href="banner.css" />
+   <link rel="stylesheet" href="nav.css" /> -->
+   <title>Anime Jonetsu</title>
+   <meta name="description" content="Blog des tendances mangas et animes. Vos meilleures shonen etc..." />
+   <meta name="author" content="Ericka, Aina, Guillaume et Nabil" />
+</head>
+
+<body>
+   <header>
+      <!-- AINA -->
+      <nav></nav>
+
+      <!-- GUILLAUME -->
+      <section></section>
+   </header>
+
+   <!-- NABIL -->
+   <main>
+      <div class="container">
+         <div class="card card1">
+            <div class="face face1">
+               <div class="content">
+                  <img src="images/Top2.jpg" alt="image1" />
+                  <h3>Le Titan Assaillant</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>
+                     En l’an 845, les humains n’ont pas aperçu de Titans aux abords
+                     du district de Shiganshina...
+                  </p>
+                  <a href="article.html" target="_blank">Read More</a>
+               </div>
+            </div>
+         </div>
+
+         <div class="card card2">
+            <div class="face face1">
+               <div class="content">
+                  <img src="images/dbz.jpg" alt="image1" />
+                  <h3>Dragon Ball Z</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>
+                     Dragon Ball Z se déroule cinq ans après le mariage de Son Goku
+                     et de Chichi, désormais parents de...
+                  </p>
+                  <a href="article.html" target="_blank">Read More</a>
+               </div>
+            </div>
+         </div>
+
+         <div class="card card3">
+            <div class="face face1">
+               <div class="content">
+                  <img src="images/Top3.jpg " alt="image1" />
+                  <h3>Hunter x Hunter</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>
+                     Gon Freecss a douze ans, et rêve de devenir hunter (chasseur en
+                     anglais). Les hunters sont des aventuriers...
+                  </p>
+                  <a href="article.html" target="_blank">Read More</a>
+               </div>
+            </div>
+         </div>
+
+         <div class="card card3">
+            <div class="face face1">
+               <div class="content">
+                  <img src="images/onepiece.jpg " alt="image1" />
+                  <h3>One Piece</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>
+                     La série suit les aventures de Monkey D. Luffy, un jeune garçon
+                     accompagné de son fidèle équipage...
+                  </p>
+                  <a href="article.html" target="_blank">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <!-- GUILLAUME CONTACT -->
+   <section></section>
+
+   <!-- AINA -->
+   <footer></footer>
+</body>
+
+>>>>>>> a82bac8daebe4e01fb7867dae05537a0e4c3bced
+</html>
