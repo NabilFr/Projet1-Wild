@@ -41,10 +41,10 @@ body{
     font-size: xx-large;
 }
 
-#banner2 {
+#banner_attack {
     height: 30em;
     width: 100%;
-    background-image: url(images/banner_article_final.png);
+    background-image: url(images/banner_attack_titans.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -54,7 +54,7 @@ body{
     line-height:50px;
 }
 
-.text_banner2 {
+.text_banner_attack {
     font-family: "Patua one",cursive;
     font-size: 60px;
     color: #E8EEF6;
@@ -81,8 +81,8 @@ body{
 
 
 @media screen and (min-width: 1350px) {
-    #banner2 {
-        background-image: url(images/banner_article_final_desktop.png);
+    #banner_attack {
+        background-image: url(images/banner_attack_titans_desktop.png);
 
     }
 }
