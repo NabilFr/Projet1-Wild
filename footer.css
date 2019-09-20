@@ -98,6 +98,7 @@ ul li {
    display: inline-block;
    margin-right: 20px;
    border: 1px solide blue;
+   
 }
 
 
@@ -105,7 +106,7 @@ ul li {
    width: 100%;
    color: #E8EEF6;
    text-align: center;
-   
+   padding-top: 15px;
 }
 
 .social-media a {
@@ -155,12 +156,5 @@ ul li {
    .social-media {
       margin-left: 0px;
    }
-<<<<<<< HEAD
 
 }
-=======
-   .adress {
-      margin-bottom: 5px;
-   }
-}
->>>>>>> refs/remotes/origin/master
