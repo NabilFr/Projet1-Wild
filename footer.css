@@ -86,7 +86,7 @@ ul a:hover {
 }
 
 ul li {
-   margin: 5px 0;
+   margin: 10px 0;
    height: 25px;
 }
 
@@ -131,7 +131,9 @@ ul li {
    font-size: 10px;
 
 }
-
+.adress {
+   margin-bottom: 5px;
+}
 @media screen and (max-width: 500px) {
 
    .inner-footer {
@@ -146,5 +148,7 @@ ul li {
    .social-media {
       margin-left: 0px;
    }
-
+   .adress {
+      margin-bottom: 5px;
+   }
 }
