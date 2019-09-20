@@ -21,6 +21,7 @@ body
    flex-wrap: wrap;
    box-sizing: border-box;
    justify-content: center;
+   text-align: center;
    /* TODO: */
    /* border: 1px solid red; */
 
@@ -30,6 +31,9 @@ body
    width: 25%;
    padding: 10px;
    box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    
 
 }
@@ -43,10 +47,10 @@ h1 {
 .footer-items p {
    color:  #E8EEF6;
    font-size: 16px;
-   text-align: left;
    line-height: 25px;
    font-family: 'Roboto', 'OpenSans', Arial;
    margin-right:7px;
+   text-align: center;
 }
 
 h2 {
@@ -86,7 +90,7 @@ ul a:hover {
 }
 
 ul li {
-   margin: 5px 0;
+   margin: 10px 0;
    height: 25px;
 }
 
@@ -132,7 +136,12 @@ ul li {
 
 }
 
-@media screen and (max-width: 500px) {
+.adress {
+   margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 775px) {
 
    .inner-footer {
       display: flex;
@@ -146,5 +155,7 @@ ul li {
    .social-media {
       margin-left: 0px;
    }
-
+   .adress {
+      margin-bottom: 5px;
+   }
 }
