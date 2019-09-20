@@ -364,7 +364,10 @@ body{
 
 @media screen and (min-width: 1350px) {
     #banner2 {
-        background-image: url(images/banner_article_final_desktop.png);
+        background-image: url(images/banner_sefie.jpg);
+        height: 55em;
+        
 
     }
+
 }
