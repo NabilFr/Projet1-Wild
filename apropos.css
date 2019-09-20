@@ -3,14 +3,14 @@
 
 #banner_apropos {
 	background-image: url(images/banner_sefie.jpg);
-	height: 40em;
+	height: 60em;
 	width: 100%;
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-	line-height:50px;
+	line-height:55px;
 }
 
 #margin_banner {
