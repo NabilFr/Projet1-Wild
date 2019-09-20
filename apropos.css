@@ -224,6 +224,8 @@ body{
      background: #e22315ad;
      height: 180px;
     border-top: 20px solid #e22315ad;
+    display: flex;
+    text-align: center;
    }
    
    .top .title {
@@ -354,7 +356,8 @@ body{
 	}
 	.card{
 		width:70% ;
-	}
+  }
+  
     
 }
 
