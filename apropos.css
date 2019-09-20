@@ -235,6 +235,7 @@ body{
      font-size:24px;
      color:#FFF;
      font-weight:500;
+     font-family: "Patua One", cursive;
    }
    
    .content{
@@ -275,6 +276,7 @@ body{
      width: 600px;
      margin: 20px auto 0 auto;
      box-shadow: 0 2px 4px rgba(100,100,100,.1);
+     border-radius: 6px;
    }
    
    .card h2 {
