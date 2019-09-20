@@ -327,18 +327,35 @@ body{
     margin:0;
 
 }
-@media screen and (min-width: 430px) {
-    .position-gif-DBZ2{
-        display: flex;
-        justify-content: center;
-    }
-    .gif-DBZ2{
-        width: 400px;
-        padding: 3em 0em;
-    }
-    .article1-DBZ{
-        padding: 10%;
-    }
+@media screen and (max-width: 687px) {
+	.aina{
+		float: none;
+		padding: 23px
+	}
+	.nabil{
+		float: none;
+		width: 200px;
+		padding: 23px;
+	}
+	.ericka{
+		float: none;
+		width: 200px;
+		padding: 23px;
+	}
+	.guillaume{
+		float: none;
+		width: 200px;
+		padding: 23px;
+	}
+	.text{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.card{
+		width:70% ;
+	}
+    
 }
 
 
