@@ -21,6 +21,7 @@ body
    flex-wrap: wrap;
    box-sizing: border-box;
    justify-content: center;
+   text-align: center;
    /* TODO: */
    /* border: 1px solid red; */
 
