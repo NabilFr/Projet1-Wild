@@ -33,6 +33,10 @@ body{
     margin-top:30px;
     line-height: 32px;
 }
+
+.p-float span{
+    font-style: italic;
+}
 .gif-DBZ2{
     width: 100%;
     border-radius:0.3em;
