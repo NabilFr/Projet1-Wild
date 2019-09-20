@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+body
+{
+   font-family: 'Roboto', 'OpenSans', Arial;
+   margin:0;
+   padding: 0;
+}
+.footer {
+   width: 100%;
+   background: #11171F;
+   display: block;
+   color: #E8EEF6 ;
+   
+}
+
+.inner-footer {
+   width: 95%;
+   margin: auto;
+   padding: 30px 40px;
+   display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   justify-content: center;
+   /* TODO: */
+   /* border: 1px solid red; */
+
+}
+
+.footer-items {
+   width: 25%;
+   padding: 10px;
+   box-sizing: border-box;
+   
+
+}
+
+h1 {
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family: 'Roboto', 'OpenSans', Arial;
+}
+
+.footer-items p {
+   color:  #E8EEF6;
+   font-size: 16px;
+   text-align: left;
+   line-height: 25px;
+   font-family: 'Roboto', 'OpenSans', Arial;
+   margin-right:7px;
+}
+
+h2 {
+   margin: 10px 0 ;
+   color: #E8EEF6;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-family: 'Roboto', 'OpenSans', Arial;
+  
+}
+
+.border {
+   height: 2px;
+   width: 40px;
+   background: #E60023 ;
+}
+
+ul {
+   list-style: none;
+   color: #E8EEF6;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   margin-top: 15px;
+   padding: 0;
+   font-family: 'Roboto', 'OpenSans', Arial;
+}
+
+ul a {
+   text-decoration: none;
+   outline: none;
+   color: #E8EEF6;
+   transition: 0.3s;
+}
+
+ul a:hover {
+   color:#E60023;
+}
+
+ul li {
+   margin: 5px 0;
+   height: 25px;
+}
+
+.map .icon {
+   display: inline-block;
+   margin-right: 20px;
+   border: 1px solide blue;
+}
+
+.social-media {
+   width: 100%;
+   color: #E8EEF6;
+   text-align: center;
+   margin-top: 30px;
+   margin-left: -70px;
+}
+
+.social-media a {
+   text-decoration: none;
+}
+
+.social-media a {
+   height: 15px;
+   width: 15px;
+   margin: 0px 5px;
+   padding: 10px;
+   color: #E8EEF6;
+   border-radius: 20%;
+   border: 1px solid grey;
+   transition: 0.3s;
+}
+
+.social-media a:hover {
+   background: red;
+}
+
+.footer-bottom {
+   padding: 5px;
+   margin : auto;
+   background: #E60023;
+   color: #E8EEF6;
+   font-size: 10px;
+
+}
+
+@media screen and (max-width: 500px) {
+
+   .inner-footer {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .footer-items {
+      width: 100%;
+   }
+
+   .social-media {
+      margin-left: 0px;
+   }
+
+}
