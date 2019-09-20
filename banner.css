@@ -1,8 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,
+ 100i,
+300,
+300i,
+400,
+400i,
+500,
+500i,
+700,
+700i,
+900,
+900i&display=swap);
 
 body {
-    background-color: #11171F;
-    font-family: 'Roboto', 'Open sans', sans-serif;
+    background-color: #11171f;
+    font-family: "Roboto", "Open sans", sans-serif;
 }
 
 #banner1 {
@@ -15,39 +26,38 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height:50px;
+    line-height: 50px;
 }
 
-.text_banner1  {
-    font-family: 'Roboto';
-    font-weight: 900;
+.text_banner1 {
+    font-family: "patua one";
     font-size: 40px;
-    color: #E8EEF6;
+    color: #e8eef6;
     display: flex;
     align-items: center;
     padding: 0px;
-    margin:0;
+    margin: 0;
 }
 
 .banner1_text_bouton {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 900;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
 .bouton1 {
-    border:none;
-    border-radius:8px;
+    border: none;
+    border-radius: 8px;
     height: 50px;
     width: 220px;
-	background:#E8EEF6;
+    background: #e8eef6;
     font-size: 20px;
     font-weight: bold;
     font-family: "roboto", sans-serif;
-    box-shadow: 1px 1px 1px #11171F ;
-    color:#11171F;
+    box-shadow: 1px 1px 1px #11171f;
+    color: #11171f;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -55,7 +65,7 @@ body {
     margin-top: 20px;
 }
 
-.bouton1:hover{
+.bouton1:hover {
     cursor: pointer;
 }
 
@@ -72,25 +82,30 @@ body {
 
 .contact_index {
     font-family: "Roboto";
-    color: #E8EEF6;
+    color: #e8eef6;
     font-weight: bold;
     font-size: 100px;
-    text-shadow: 2px 2px 2px #11171F;
-    border: 9px solid #E8EEF6;
+    text-shadow: 2px 2px 2px #11171f;
+    border: 9px solid #e8eef6;
     padding: 3px;
-    box-shadow: 2px 2px 2px #11171F;
+    box-shadow: 2px 2px 2px #11171f;
     display: flex;
     opacity: 0.85;
 }
 
 .contact_index:hover {
     font-family: "Roboto";
-    color:#11171F;
-    border-color: #11171F;
-    cursor: pointer;  
+    color: #11171f;
+    border-color: #11171f;
+    cursor: pointer;
 }
 
-@media only screen and (max-width:816px) {
+.liencontact {
+    
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 816px) {
     #banner1 {
         max-width: 100%;
         height: 30em;
@@ -106,29 +121,29 @@ body {
     .text_banner1 {
         font-size: 20px;
         font-family: "roboto", sans-serif;
-        text-shadow: 2px 2px 2px #11171F;
+        text-shadow: 2px 2px 2px #11171f;
         text-align: center;
     }
 
     .bouton1 {
-        display:flex;
+        display: flex;
         justify-content: center;
         align-content: center;
         text-align: center;
-        height:45px;
+        height: 45px;
         width: 180px;
         font-size: 18px;
     }
 
-    .bouton1:hover{
+    .bouton1:hover {
         cursor: pointer;
     }
 
     .banner1_text_bouton {
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        margin:0;
+        margin: 0;
         padding-top: 4px;
     }
 
@@ -141,27 +156,25 @@ body {
         background-size: cover;
         justify-content: center;
         align-items: center;
-        margin: 0px; 
+        margin: 0px;
     }
-    
+
     .contact_index {
         font-family: "Roboto";
-        color: #E8EEF6;
+        color: #e8eef6;
         font-weight: bold;
         font-size: 50px;
-        text-shadow: 2px 2px 2px #11171F;
-        border: 9px solid #E8EEF6;
+        text-shadow: 2px 2px 2px #11171f;
+        border: 9px solid #e8eef6;
         padding: 3px;
-        box-shadow: 2px 2px 2px #11171F;
+        box-shadow: 2px 2px 2px #11171f;
         display: flex;
         opacity: 0.85;
     }
 
     .contact_index:hover {
         font-family: "Roboto";
-        color:#11171F;
-        border-color: #11171F;  
+        color: #11171f;
+        border-color: #11171f;
     }
-
-
 }

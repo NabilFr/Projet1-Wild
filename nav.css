@@ -1,6 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,
+ 100i,
+300,
+300i,
+400,
+400i,
+500,
+500i,
+700,
+700i,
+900,
+900i&display=swap);
 
-.navbar{ 
-   font-family: 'Open Sans', sans-serif; 
+
+.nav{ 
+   font-family: "Roboto", "Open sans", sans-serif;
    background-color : #11171F; 
    padding : 10px 7px 15px 5px; 
    display : flex ; 
@@ -32,11 +45,18 @@
 #menu-demo2 ul li a{ 
 color : #E8EEF6; 
 font-size : 20px; 
-background-color: #10171fed; 
+background-color: #10171f; 
 display:block; 
-margin : 0 10px; 
-padding : 5px;} 
-border-radius : 25px;
+margin : 0 0 -10px -80px; 
+padding : 30px;
+box-sizing: border-box;
+border-radius : 2px;
+}
+
+#menu-demo2 ul li a:hover{
+   color: #E60023
+
+   }
    
 #menu-demo2 li:hover ul{ 
    max-height:60em; 
@@ -89,8 +109,9 @@ border-radius : 25px;
    background : #2f3640; 
    height : 30px; 
    width:420px; 
-   margin : 5px 10px 0px 340px; 
-   border-radius : 40px; 
+   margin : 5px 10px 0px 300px; 
+   border-radius :20px; 
+   
 } 
 
 .search-btn{ 
@@ -175,13 +196,13 @@ border-radius : 25px;
       margin: 5px 60px; 
    } 
    .Articles{ 
-      margin : 0 130px 5px; 
+      margin : 11px 150px 10px; 
    } 
    .Apropos{ 
       margin: 0 130px 5px; 
    } 
    .search-box{ 
-      margin : 50px 150px 0px 170px; 
+      margin : 0px 150px 45px 170px; 
    } 
    .search-txt{ 
       width : 200px;      
@@ -189,67 +210,71 @@ border-radius : 25px;
 } 
 @media screen and (max-width : 1237px){ 
    .search-box{ 
-      margin : 50px 150px 0px 132px; 
+      margin : 0px 150px 45px 132px; 
    } 
 } 
 @media screen and (max-width : 1199px){ 
    .search-box{ 
-      margin : 50px 150px 0px 100px; 
+      margin : 50px 150px 45px 100px; 
    } 
 } 
 @media screen and (max-width : 1167px){ 
    .search-box{ 
-      margin : 50px 150px 0px 80px; 
+      margin : 50px 150px 45px 80px; 
    } 
 } 
 @media screen and (max-width : 1147px){ 
    .search-box{ 
-      margin : 50px 150px 0px 35px; 
+      margin : 50px 150px 45px 35px; 
    } 
 } 
 @media screen and (max-width : 1114px){ 
    .search-box{ 
-      margin : 50px 150px 0px 2px; 
+      margin : 50px 150px 45px 2px; 
    } 
 } 
 @media screen and (max-width : 1069px){ 
    .search-box{ 
-      margin : 50px 150px 0px -20px; 
+      margin : 50px 150px 45px -20px; 
    } 
 } 
 @media screen and (max-width : 1047px){ 
    .search-box{ 
-      margin : 50px 150px 0px -40px; 
+      margin : 50px 150px 45px -40px; 
    } 
 } 
 @media screen and (max-width : 1027px){ 
    .search-box{ 
-      margin : 50px 150px 0px -50px; 
+      margin : 50px 150px 45px -50px; 
    } 
 } 
 @media screen and (max-width : 1017px){ 
    .search-box{ 
-      margin : 50px 150px 0px -70px; 
+      margin : 50px 150px 45px -70px; 
    } 
 } 
-@media screen and (max-width : 999px){ 
+@media screen and (min-width:0px) and (max-width : 999px){ 
    .search-box{ 
-      margin : 10px auto; 
+      margin : 13px auto; 
       width: 200px; 
    } 
    .nav{ 
       display:flex; 
       flex-direction : column; 
       justify-content: center; 
+      align-items: center;
       margin:auto; 
    } 
    .Anime{      
       font-size: 2em; 
-      margin: 5px 0px; 
+      margin: 11px 250px; 
    } 
-   #menu-demo2 li{ 
-      display:block; 
-      } 
+   .Articles{ 
+      margin : 11px 250px; 
+   } 
+   .Apropos{ 
+      margin: 0px 250px; 
+   } 
    .search-txt{ 
       width : 140px;      
    } 
