@@ -98,13 +98,15 @@ ul li {
    display: inline-block;
    margin-right: 20px;
    border: 1px solide blue;
+   
 }
+
 
 .social-media {
    width: 100%;
    color: #E8EEF6;
    text-align: center;
-   
+   padding-top: 15px;
 }
 
 .social-media a {
@@ -154,7 +156,5 @@ ul li {
    .social-media {
       margin-left: 0px;
    }
-   .adress {
-      margin-bottom: 5px;
-   }
+
 }
