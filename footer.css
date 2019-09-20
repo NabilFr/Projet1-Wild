@@ -47,10 +47,10 @@ h1 {
 .footer-items p {
    color:  #E8EEF6;
    font-size: 16px;
-   text-align: left;
    line-height: 25px;
    font-family: 'Roboto', 'OpenSans', Arial;
    margin-right:7px;
+   text-align: center;
 }
 
 h2 {
