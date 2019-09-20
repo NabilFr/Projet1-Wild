@@ -54,8 +54,57 @@ body{
     align-content: center;
     line-height:50px;
 }
+#banner_hunter {
+    height: 30em;
+    width: 100%;
+    background-image: url(images/banner_hunter_desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position-y: 20%;
+    align-content: center;
+    line-height:50px;
+}
+
+#banner_onepiece {
+    height: 30em;
+    width: 100%;
+    background-image: url(images/banner_one_piece1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position-y: 20%;
+    align-content: center;
+    line-height:50px;
+}
 
 .text_banner2 {
+    font-family: "Patua one",cursive;
+    font-size: 60px;
+    color: #E8EEF6;
+    text-shadow: 2px 2px 2px #11171F;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin:0;
+
+}
+
+
+.text_banner_hunter {
+    font-family: "Patua one",cursive;
+    font-size: 60px;
+    color: #E8EEF6;
+    text-shadow: 2px 2px 2px #11171F;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin:0;
+}
+
+.text_banner_onepiece {
     font-family: "Patua one",cursive;
     font-size: 60px;
     color: #E8EEF6;
@@ -78,12 +127,13 @@ body{
     .article1-DBZ{
         padding: 10%;
     }
-}
-
-
-@media screen and (min-width: 1350px) {
-    #banner2 {
-        background-image: url(images/banner_article_final_desktop.png);
-
+    #banner_hunter {
+        background-image: url(images/banner_hunter2.png)
     }
 }
+@media screen and (min-width: 1200px) {
+    #banner_hunter {
+        background-image: url(images/banner_hunter_desktop.png)
+    }
+}
+
