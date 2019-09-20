@@ -7,7 +7,7 @@ body{
 }
 
 .article1-DBZ {
-    background-color: #1a1f25;
+    background-color: #11171F;
     padding: 5%;
     text-align: center;
     
@@ -63,6 +63,15 @@ body{
     align-items: center;
     padding: 0px;
     margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: #E8EEF6;
+}
+a:hover {
+    text-decoration: none;
+    color: #E60023;
 
 }
 @media screen and (min-width: 430px) {
@@ -81,8 +90,8 @@ body{
 
 
 @media screen and (min-width: 1350px) {
-    #banner2 {
-        background-image: url(images/banner_article_final_desktop.png);
+    #banner_sources {
+        background-image: url(images/banner_sources_desktop.png);
 
     }
 }
