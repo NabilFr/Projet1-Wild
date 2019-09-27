@@ -19,9 +19,6 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-</head>
-
-<body>
    <div id='bicth'>
       <header>
          <!-- AINA -->
@@ -42,7 +39,6 @@
                      <li class="Apropos"><a href="apropos.html">A propos</a></li>
                   </ul>
                </div>
-
                <div class="search-box">
                   <input class="search-txt" type="text" name="search" placeholder="Type to search" />
                   <a class="search-btn" href="#">
@@ -51,16 +47,22 @@
                </div>
             </div>
          </nav>
-
-         <!-- GUILLAUME -->
-         <section>
-            <div id="banner1">
-               <div class="banner1_text_bouton">
-                  <p class="text_banner1">
-                     La référence Toulousaine number<br />one du manga !
-                  </p>
-                  <input type="button" class="bouton1" value="Bande d'annonce" />
-               </div>
+      <!-- GUILLAUME -->
+      <section>
+         <div id="banner1">
+            <div class="banner1_text_bouton">
+               <p class="text_banner1">
+                  La référence Toulousaine number<br />one du manga !
+               </p>
+               <input type="button" class="bouton1" value="Top 2019" />
+                <!-- bande annoce youtube -->
+                
+                <div id="modal">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3beSysqWUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="iframe"></iframe>
+                    <button id="close-modal">Revenir au menu</button>
+                </div>
+                  
+                <!-- terminer youtube -->
             </div>
          </section>
       </header>
@@ -260,12 +262,13 @@
                </ul>
                </div>
             </div>
-            <div class="footer-bottom">
-               Copyright &copy; Anime Jonetsu 2019. All rights reserved.
-            </div>
+   
+         <div class="footer-bottom">
+            Copyright &copy; Anime Jonetsu 2019. All rights reserved.
          </div>
-      </footer>
-   </div>
+      </div>
+   </footer>
+   <script src="projet-JS.js"></script>
    <script type="text/javascript" src="neweffect.js"></script>
 </body>
 </html>

@@ -5,13 +5,13 @@ const deselector = document.getElementsByClassName('left');
 let left = [0, 1, 2, 3]
 selector.addEventListener('mouseenter', event => {
     const choiceSpan = document.getElementById('banner1');
-    choiceSpan.style.backgroundImage = "url(" + `http://127.0.0.1:5500/Projet1.2/images/banner_att_titansJS.png` + ")";
+    choiceSpan.style.backgroundImage = "url('images/banner_att_titansJS.png')";
 })
 //boucle afin de parcourir les index de ma class left
 for (let i=0; i < left.length; i++){
   deselector[i].addEventListener('mouseleave', event => {
     const choiceSpan = document.getElementById('banner1');
-    choiceSpan.style.backgroundImage = "url(" + `http://127.0.0.1:5500/Projet1.2/images/banner_1_final_desktop.png` + ")";
+    choiceSpan.style.backgroundImage = "url('images/Banner_index_final.png')";
   })
 }
 deselector[0]
@@ -19,21 +19,21 @@ deselector[0]
 const selector2 = document.getElementById('dbz');
 selector2.addEventListener('mouseenter', event => {
   const choiceSpan = document.getElementById('banner1');
-  choiceSpan.style.backgroundImage = "url(" + `http://127.0.0.1:5500/Projet1.2/images/banner_dbzJs.png` + ")";
+  choiceSpan.style.backgroundImage = "url('images/banner_dbzJs.png')";
 })
 deselector[1]
 
 const selector3 = document.getElementById('hxh');
 selector3.addEventListener('mouseenter', event => {
   const choiceSpan = document.getElementById('banner1');
-  choiceSpan.style.backgroundImage = "url(" + `http://127.0.0.1:5500/Projet1.2/images/banner_hxhJs.png` + ")";
+  choiceSpan.style.backgroundImage = "url('images/banner_hxhJs.png')";
 })
 deselector[2]
 
 const selector4 = document.getElementById('op');
 selector4.addEventListener('mouseenter', event => {
   const choiceSpan = document.getElementById('banner1');
-  choiceSpan.style.backgroundImage = "url(" + `http://127.0.0.1:5500/Projet1.2/images/banner_one_pieceJS.png` + ")";
+  choiceSpan.style.backgroundImage = "url('images/banner_one_pieceJS.png')";
 })
 deselector[3]
 
