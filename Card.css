@@ -15,7 +15,6 @@ p {
 
 .container {
    width: auto;
-   position: relative;
    display: flex;
    justify-content: space-between;
 
