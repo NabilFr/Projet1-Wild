@@ -19,7 +19,7 @@ body {
 #banner1 {
     height: 30em;
     width: 100%;
-    background-image: url(images/banner_1_final_desktop.png);
+    background-image: url(images/Banner_index_final.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,6 +104,18 @@ body {
 .liencontact {
     
     text-decoration: none;
+}
+#bitch {
+    display:block;
+}
+.hide {
+    display: none;
+    min-width: 100%;
+    min-height: 1000px;
+    z-index: 1;
+}
+.hide:hover {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 816px) {

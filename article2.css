@@ -7,7 +7,7 @@ body{
 }
 
 .article1-DBZ {
-    background-color: #11171F;
+    background-color: #1a1f25;
     padding: 5%;
     text-align: center;
     
@@ -19,7 +19,7 @@ body{
 .typographie{
     font-family: "Open Sans", sans-serif;
     color: #E8EEF6;
-    font-size: large;
+    font-size: 26px;
 }
 .typographie-titre{
     font-family: "Patua one",cursive;
@@ -33,11 +33,6 @@ body{
     margin-top:30px;
     line-height: 32px;
 }
-
-.p-float span{
-    font-style: italic;
-}
-
 .gif-DBZ2{
     width: 100%;
     border-radius:0.3em;
@@ -46,10 +41,10 @@ body{
     font-size: xx-large;
 }
 
-#banner_sources {
+#banner_attack {
     height: 30em;
     width: 100%;
-    background-image: url(images/banner_sources.png);
+    background-image: url(images/banner_attack_titans.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -59,7 +54,7 @@ body{
     line-height:50px;
 }
 
-.text_banner_sources {
+.text_banner_attack {
     font-family: "Patua one",cursive;
     font-size: 60px;
     color: #E8EEF6;
@@ -68,15 +63,6 @@ body{
     align-items: center;
     padding: 0px;
     margin:0;
-}
-
-a {
-    text-decoration: none;
-    color: #E8EEF6;
-}
-a:hover {
-    text-decoration: none;
-    color: #E60023;
 
 }
 @media screen and (min-width: 430px) {
@@ -95,8 +81,8 @@ a:hover {
 
 
 @media screen and (min-width: 1350px) {
-    #banner_sources {
-        background-image: url(images/banner_sources_desktop.png);
+    #banner_attack {
+        background-image: url(images/banner_attack_titans_desktop.png);
 
     }
 }
